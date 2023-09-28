@@ -14,10 +14,10 @@
 
 *Current State*
 
-- Official Content Creation - Course, Conversations and phrases - add, edit and explore learning content - text and audio
+- Content Creation - Courses, Conversations and Phrases - add, edit and explore learning content
 - Flashcard List Generation - Phrases - turn any lesson or conversation phrases into a flashcard list in any mode - reading, listening, speaking
-- Progress Tracking progress - view basic statistics of learned material
-- Spaced Repetition Flashcard Generation - Rehearse learned phrases in spaced repetition mode with basic filtering options by mode
+- Progress Tracking - view basic statistics of learned/rehearsed material
+- Spaced Repetition Flashcard Generation - Rehearse learned phrases in spaced repetition mode with basic filtering options
 
 *Planned*
 
