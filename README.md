@@ -73,6 +73,12 @@ Address following problems with learning japanese language:
 ### System Context Diagram
 ![System Context Diagram](/images/System%20Context%20Diagram.png)
 
+## Runtime Flows
+
+### Add Learning Entity for Rehearse
+
+![Add to Rehearse Flow Diagram](/images/Add%20to%20Rehearse%20Flow%20Diagram.png)
+
 ## Environment
 
 ### Development
