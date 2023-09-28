@@ -71,7 +71,7 @@ Address following problems with learning japanese language:
 ## Architecture
 
 ### System Context Diagram
-![System Context Diagram](/docs/images/System%20Context%20Diagram.png)
+![System Context Diagram](/images/System%20Context%20Diagram.png)
 
 ## Environment
 
