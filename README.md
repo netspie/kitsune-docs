@@ -10,6 +10,10 @@
 #### Demo Urls
 &nbsp;&nbsp;&nbsp;&nbsp; https://kitsunestudy.net
 
+#### Demo Image
+
+![Demo Image](/images/KS.gif)
+
 #### Features
 
 *Current State*
