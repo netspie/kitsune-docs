@@ -80,6 +80,9 @@ Address following problems with learning japanese language:
 ## Runtime Flows
 
 ### Add Learning Entity for Rehearse
+&nbsp;&nbsp;&nbsp;&nbsp; If a user wants to add whole lesson for rehearse (could be also conversation, song lyrics, anime episode subtitles), one must click a button. After that, a command is send and processed by a command handler, which only thing it does is storing event to the event store for further processing. It is because a collection, here the lesson, may consist of tens or more granular items (concepts, words, phrases, etc.) all nested several levels down, and since it is unknown how many it is, it would be too much work to search everything at once for each single user request performed. The solution here is just a simple outbox pattern - the rehearse module background thread worker collects the first x events in the queue, which is stored in MongoDb and indexed by timestamp ticks and then executes proper event handlers. The similar solution must be done for other operations - like removing collection from rehearse, or especially if adding new or removing nested granular item (phrase, word) or collection when multiple users already have a parent collection added for rehearse, so there is plenty items to process.  
+
+&nbsp;&nbsp;&nbsp;&nbsp; Additionally, for single learning entity (collection or item) there is multiple rehearse data items added for each mode (reading, listening, speaking, writing) depending on the item type and since each granular item can also be a collection of more granular items itself - there is really a lot of data, all of it is required, so the user can easily navigate between various views and data back and forth and review the material in a flexible way. 
 
 ![Add to Rehearse Flow Diagram](/images/Add%20to%20Rehearse%20Flow%20Diagram.png)
 
