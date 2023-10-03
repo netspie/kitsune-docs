@@ -2,10 +2,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; Japanese language learning app where you can add and explore various materials and turn anything into flashcards.
 
-#### Repository
-
-&nbsp;&nbsp;&nbsp;&nbsp; The project repository is being kept private, although some snippets might be available here.
-
 ## General
 
 #### Technologies
