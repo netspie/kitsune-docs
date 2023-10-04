@@ -10,7 +10,7 @@
 #### Demo Urls
 &nbsp;&nbsp;&nbsp;&nbsp; https://kitsunestudy.net
 
-#### Demo Image
+#### Demo Gif
 
 ![Demo Image](/images/KS.gif)
 
