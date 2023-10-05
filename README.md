@@ -88,6 +88,20 @@ Address following problems with learning japanese language:
 
 ![Add to Rehearse Flow Diagram](/images/Add%20to%20Rehearse%20Flow%20Diagram.png)
 
+## Project Structure
+
+### Solution Structure
+![Solution Structure Image](/images/project-structure.png)
+
+### Entities Project
+![Entities Project Image](/images/project-entities.png)
+
+### Usecases Project - Content Context
+![Project Usecases Content Image](/images/project-usecases-content.png)
+
+### UI Project
+![UI Project Image](/images/project-ui.png)
+
 ## Environment
 
 ### Development
