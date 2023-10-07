@@ -127,7 +127,21 @@ git clone https://github.com/drlsn/kitsune.git
 - Install MongoDb Compass - https://www.mongodb.com/products/tools/compass
 - Install MongoDb Shell - https://www.mongodb.com/try/download/shell - make sure you can run command mongosh in cmd line, if not add the path to environment Path variable
 - Install MongoDb Command Line Database Tools - https://www.mongodb.com/try/download/database-tools
-
+- Download desired backup version from a link (secret)
+- Run command to restore mongo database and media files - modify if needed, [docs](https://www.mongodb.com/docs/database-tools/mongorestore/#synopsis)
+```
+mongorestore --drop --uri="mongodb://localhost:27017/HackStudy_dev" D:/kitsune-dumps/15-09-23-01/HackStudy_prod
+rmdir /s /q "D:\git\manabu\src\Manabu.UI.Server\media"
+xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\manabu\src\Manabu.UI.Server\media"
+```
+- To run server on local network
+  - in D:\git\kitsune\src\Manabu.UI.Server\Properties\launchSettings.json in section profiles/https/applicationUrl add local ip address - don't ever commit
+  - open port, i.e. 7073 - https://www.partitionwizard.com/partitionmanager/how-to-open-ports.html
+- Set environment variables
+  - Hackstudy_UseLocalIP - true - allows to run app on local network so you can run it on phone
+  - HackStudyDatabaseConn - mongodb://localhost:27017
+  - HackstudyServerClientSecret - (secret)
+    
 ### Production
 - Domain Provider - [seohost.pl](https://seohost.pl/)
 - Backend Host - AWS E2C
