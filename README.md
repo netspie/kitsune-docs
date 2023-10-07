@@ -130,7 +130,7 @@ git clone https://github.com/drlsn/kitsune.git
 - Download desired backup version from a link (secret)
 - Run command to restore mongo database and media files - modify if needed, [docs](https://www.mongodb.com/docs/database-tools/mongorestore/#synopsis)
 ```
-mongorestore --drop --uri="mongodb://localhost:27017/HackStudy_dev" D:/kitsune-dumps/15-09-23-01/HackStudy_prod
+mongorestore --drop --uri="mongodb://localhost:27017/Kitsune_dev" D:/kitsune-dumps/15-09-23-01/Kitsune_dev
 rmdir /s /q "D:\git\manabu\src\Manabu.UI.Server\media"
 xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\manabu\src\Manabu.UI.Server\media"
 ```
