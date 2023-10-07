@@ -111,6 +111,23 @@ Address following problems with learning japanese language:
 - MongoDb Database Tools - MongoDb Cloud, MongoDb Shell, Studio 3T, MongoDb Compass
 - Design Tools - Miro
 
+#### Setup
+
+- Install latest version of Visual Studio 2022 Community - https://visualstudio.microsoft.com/pl/vs/
+- Clone 3rd party and main repositories, example:
+```
+D:
+mkdir git
+cd git
+git clone https://github.com/drlsn/Corelibs.Basic.git  
+git clone https://github.com/drlsn/Corelibs.MongoDB.git  
+git clone https://github.com/drlsn/kitsune.git  
+```
+- Install Git Source Version Control GUI if desired of choice, i.e. SourceTree - https://www.sourcetreeapp.com/
+- Install MongoDb Compass - https://www.mongodb.com/products/tools/compass
+- Install MongoDb Shell - https://www.mongodb.com/try/download/shell - make sure you can run command mongosh in cmd line, if not add the path to environment Path variable
+- Install MongoDb Command Line Database Tools - https://www.mongodb.com/try/download/database-tools
+
 ### Production
 - Domain Provider - [seohost.pl](https://seohost.pl/)
 - Backend Host - AWS E2C
