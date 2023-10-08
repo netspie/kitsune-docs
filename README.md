@@ -123,7 +123,7 @@ git clone https://github.com/drlsn/Corelibs.Basic.git
 git clone https://github.com/drlsn/Corelibs.MongoDB.git  
 git clone https://github.com/drlsn/kitsune.git  
 ```
-- Install Git Source Version Control GUI if desired of choice, i.e. SourceTree - https://www.sourcetreeapp.com/
+- Install Git Source Version Control GUI if desired, i.e. SourceTree - https://www.sourcetreeapp.com/
 - Install MongoDb Compass - https://www.mongodb.com/products/tools/compass
 - Install MongoDb Shell - https://www.mongodb.com/try/download/shell - make sure you can run command mongosh in cmd line, if not add the path to environment Path variable
 - Install MongoDb Command Line Database Tools - https://www.mongodb.com/try/download/database-tools
@@ -138,9 +138,8 @@ xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\manabu\src\Manabu.UI
   - in D:\git\kitsune\src\Manabu.UI.Server\Properties\launchSettings.json in section profiles/https/applicationUrl add local ip address - don't ever commit
   - open port, i.e. 7073 - https://www.partitionwizard.com/partitionmanager/how-to-open-ports.html
 - Set environment variables
-  - Hackstudy_UseLocalIP - true - allows to run app on local network so you can run it on phone
-  - HackStudyDatabaseConn - mongodb://localhost:27017
-  - HackstudyServerClientSecret - (secret)
+  - Kitsune_UseLocalIP - true - allows to run app on local network so you can run it on a phone
+  - KitsuneDatabaseConn - mongodb://localhost:27017
     
 ### Production
 - Domain Provider - [seohost.pl](https://seohost.pl/)
