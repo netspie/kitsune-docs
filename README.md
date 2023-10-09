@@ -124,7 +124,7 @@ git clone https://github.com/drlsn/Corelibs.MongoDB.git
 git clone https://github.com/drlsn/kitsune.git  
 ```
 - Install Git Source Version Control GUI if desired, i.e. SourceTree - https://www.sourcetreeapp.com/
-- Install MongoDb Compass - https://www.mongodb.com/products/tools/compass
+- Install MongoDb Server with Compass - https://www.mongodb.com/try/download/community
 - Install MongoDb Shell - https://www.mongodb.com/try/download/shell - make sure you can run command mongosh in cmd line, if not add the path to environment Path variable
 - Install MongoDb Command Line Database Tools - https://www.mongodb.com/try/download/database-tools
 - Download desired backup version from a link (secret)
@@ -133,6 +133,12 @@ git clone https://github.com/drlsn/kitsune.git
 mongorestore --drop --uri="mongodb://localhost:27017/Kitsune_dev" D:/kitsune-dumps/15-09-23-01/Kitsune_dev
 rmdir /s /q "D:\git\manabu\src\Manabu.UI.Server\media"
 xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\manabu\src\Manabu.UI.Server\media"
+```
+- Create indexes, copy section from /dev/createIndexes.js and run in mongosh
+```
+mongosh mongodb://localhost:27017
+use Kitsune_dev
+... run indexes
 ```
 - To run server on local network
   - in D:\git\kitsune\src\Manabu.UI.Server\Properties\launchSettings.json in section profiles/https/applicationUrl add local ip address - don't ever commit
