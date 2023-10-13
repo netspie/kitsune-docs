@@ -254,3 +254,28 @@ use Kitsune_dev
 - Age jargons - vocabulary or phrases used depending on a person's age
 - Keigo - rude, informal, formal, humble/honorific
 - Dialects - Kanto, Kansai, Kyushuu and more..
+
+## View Design
+
+### Word View
+
+- Value/Original/Word - 日
+- Meanings
+  - 日 - ひ, sun
+  - 日 - にち, day
+  - 日 - か, day, suffix
+- Inflections
+- Compounds
+
+
+
+
+
+
+
+
+
+
+
+
+
