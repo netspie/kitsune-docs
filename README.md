@@ -257,15 +257,51 @@ use Kitsune_dev
 
 ## View Design
 
-### Word View
+### Word View - Verb
+
+- Value/Original/Word - なる
+- Meanings
+  - なる - 
+- Inflections
+  - Present - (Positive, Negative)
+  - Present, Formal - (Positive, Negative)
+  - Past - (Positive, Negative)
+  - Past, Formal - (Positive, Negative)
+  - Progressive? - -te form (Positive, Negative)
+  - Potential
+  - Passive
+  - Causative
+  - Causative Passive
+  - Imperative
+  - Violitional
+  - Violitional, Formal
+  - Conditional (reba)
+  - Conditional (tara)
+- Particles (rather for verbs)
+- Compounds (rather for verbs?)
+
+### Word View - Adjective, い
+
+- Value/Original/Word - 重い
+- Meanings
+  - 重い - heavy (by weight)
+  - 重い - slow (by weight)
+  - 重い - serious (heavy)
+- Inflections
+  - Present
+    - Positive - 重い
+    - Negative - 重くない
+  - Past
+    - Positive - 重かった
+    - Negative - 重くなかった
+
+### Word View - Noun and others
 
 - Value/Original/Word - 日
 - Meanings
   - 日 - ひ, sun
   - 日 - にち, day
   - 日 - か, day, suffix
-- Inflections
-- Compounds
 
 
 
