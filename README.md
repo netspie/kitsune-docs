@@ -261,22 +261,52 @@ use Kitsune_dev
 
 - Value/Original/Word - なる
 - Meanings
-  - なる - 
+  - なる - to become
+  - なる - to get
+  - ...
 - Inflections
-  - Present - (Positive, Negative)
-  - Present, Formal - (Positive, Negative)
-  - Past - (Positive, Negative)
-  - Past, Formal - (Positive, Negative)
-  - Progressive? - -te form (Positive, Negative)
+  - Present
+    - Positive - なる
+    - Negative - ならない
+  - Present, Formal
+    - Positive - なります
+    - Negative - なりません
+  - Past
+    - Positive: なった
+    - Negative: ならなかった
+  - Past, Formal
+    - Positive: なりました
+    - Negative: なりませんでした
+  - Progressive
+    - Positive: なっている
+    - Negative: なっていない
   - Potential
+    - Positive: なれる
+    - Negative: なれない
   - Passive
+    - Positive: なられる
+    - Negative: なられない
   - Causative
+    - Positive: ならせる
+    - Negative: ならせない
   - Causative Passive
+    - Positive: ならせられる
+    - Negative: ならせられない
   - Imperative
+    - Positive: なれ
+    - Negative: なるな
   - Violitional
+    - Positive: なろう
+    - Negative: なるまい
   - Violitional, Formal
+    - Positive: なりましょう
+    - Negative: なりますまい
   - Conditional (reba)
+    - Positive: なれば
+    - Negative: ならなければ
   - Conditional (tara)
+    - Positive: なったら
+    - Negative: ならなかったら
 - Particles (rather for verbs)
 - Compounds (rather for verbs?)
 
