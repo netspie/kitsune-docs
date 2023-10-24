@@ -132,8 +132,8 @@ git clone https://github.com/drlsn/kitsune.git
 ```
 mongosh --eval "use Kitsune_dev" --eval "db.dropDatabase()"
 mongorestore --uri="mongodb://localhost:27017/Kitsune_dev" D:/kitsune-dumps/15-09-23-01/Kitsune_dev
-rmdir /s /q "D:\git\manabu\src\Manabu.UI.Server\media"
-xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\manabu\src\Manabu.UI.Server\media"
+rmdir /s /q "D:\git\kitsune\src\Manabu.UI.Server\media"
+xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\kitsune\src\Manabu.UI.Server\media"
 ```
 - Create indexes, copy section from /dev/createIndexes.js and run in mongosh
 ```
