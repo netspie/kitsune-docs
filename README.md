@@ -126,7 +126,8 @@ git clone https://github.com/drlsn/kitsune.git
 - Install Git Source Version Control GUI if desired, i.e. SourceTree - https://www.sourcetreeapp.com/
 - Install MongoDb Server with Compass - https://www.mongodb.com/try/download/community
 - Install MongoDb Shell - https://www.mongodb.com/try/download/shell - make sure you can run command mongosh in cmd line, if not add the path to environment Path variable
-- Install MongoDb Command Line Database Tools - https://www.mongodb.com/try/download/database-tools
+- Install MongoDb Command Line Database Tools and set path as environment variable - https://www.mongodb.com/try/download/database-tools
+  - Path - C:\Program Files\MongoDB\Tools\bin
 - Download desired backup version from a link (secret)
 - Run command to restore mongo database and media files - modify if needed, [docs](https://www.mongodb.com/docs/database-tools/mongorestore/#synopsis)
 ```
@@ -138,7 +139,7 @@ xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\kitsune\src\Manabu.U
 - To run server on local network
   - in D:\git\kitsune\src\Manabu.UI.Server\Properties\launchSettings.json in section profiles/https/applicationUrl add local ip address - don't ever commit
   - open port, i.e. 7073 - https://www.partitionwizard.com/partitionmanager/how-to-open-ports.html
-- Set environment variables
+- Set environment variables (optional)
   - Kitsune_UseLocalIP - true - allows to run app on local network so you can run it on a phone
   - KitsuneDatabaseConn - mongodb://localhost:27017
     
