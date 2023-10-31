@@ -135,7 +135,7 @@ mongosh --eval "use Kitsune_dev" --eval "db.dropDatabase()"
 mongorestore --uri="mongodb://localhost:27017/Kitsune_dev" D:/kitsune-dumps/15-09-23-01/Kitsune_dev
 rmdir /s /q "D:\git\kitsune\src\Manabu.UI.Server\media"
 xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\kitsune\src\Manabu.UI.Server\media"
-
+```
 - To run server on local network (optional)
   - in D:\git\kitsune\src\Manabu.UI.Server\Properties\launchSettings.json in section profiles/https/applicationUrl add local ip address - don't ever commit
   - open port, i.e. 7073 - https://www.partitionwizard.com/partitionmanager/how-to-open-ports.html
