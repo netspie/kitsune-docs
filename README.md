@@ -217,12 +217,11 @@ xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\kitsune\src\Manabu.U
   - N5, N4, N3..
 - Vocabulary
   - By Linguistics
-    - Verbs, Nouns, Adjectives, Particles
+    - Particles, Pronouns, Adjectives, Verbs, Auxilary Verbs, Nouns, Names, Conjunctions, Numerals, Prepositions, Classifiers, Adverbs, Interjections
       - Word Dictionary Writings
         - Word Meanings
         - Word Inflections
         - Word Compounds
-        - 
   - By Theme
     - Colors, Numbers, Animals, Names and tons more..
   - Similar words
