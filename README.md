@@ -119,9 +119,9 @@ Address following problems with learning japanese language:
 D:
 mkdir git
 cd git
-git clone https://github.com/drlsn/Corelibs.Basic.git  
-git clone https://github.com/drlsn/Corelibs.MongoDB.git  
-git clone https://github.com/drlsn/kitsune.git  
+git clone https://github.com/drlsn/Kitsune-Study/Corelibs.Basic.git  
+git clone https://github.com/drlsn/Kitsune-Study/Corelibs.MongoDB.git  
+git clone https://github.com/drlsn/Kitsune-Study/kitsune.git  
 ```
 - Install Git Source Version Control GUI if desired, i.e. SourceTree - https://www.sourcetreeapp.com/
 - Install MongoDb Server with Compass - https://www.mongodb.com/try/download/community
