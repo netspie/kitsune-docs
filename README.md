@@ -137,7 +137,8 @@ rmdir /s /q "D:\git\kitsune\src\Manabu.UI.Server\media"
 xcopy /s /i /Y "D:\kitsune-dumps\15-09-23-01\media" "D:\git\kitsune\src\Manabu.UI.Server\media"
 ```
 - To enable sorting and filtering of certain data it is needed to create search index - only available in Mongo Atlas
-  - words collection - `{ "mappings": { "fields": { "Value": { "analyzer": "lucene.keyword", "type": "string" } } } }`
+  - words - searchWordsByValue - `{ "mappings": { "fields": { "Value": { "analyzer": "lucene.keyword", "type": "string" } } } }`
+  - wordMeanings - searchWordMeanings - `{ "mappings": { "fields": { "Original": { "analyzer": "lucene.keyword", "type": "string" }, "Translations": { "analyzer": "lucene.keyword", "type": "string" } } } }`
 - To run server on local network (optional)
   - in D:\git\kitsune\src\Manabu.UI.Server\Properties\launchSettings.json in section profiles/https/applicationUrl add local ip address - don't ever commit
   - open port, i.e. 7073 - https://www.partitionwizard.com/partitionmanager/how-to-open-ports.html
