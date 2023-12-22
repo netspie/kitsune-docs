@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; The main repository is available at https://github.com/Kitsune-Study/kitsune  
 
 #### Technologies
-&nbsp;&nbsp;&nbsp;&nbsp; NET Core, C#, HTML, CSS, Blazor Server, MongoDb, AWS, Docker
+&nbsp;&nbsp;&nbsp;&nbsp; Asp.Net Core, C#, HTML, CSS, Blazor Server and MudBlazor, MongoDb, AWS, Docker
 
 #### Demo Urls
 &nbsp;&nbsp;&nbsp;&nbsp; https://kitsunestudy.net
