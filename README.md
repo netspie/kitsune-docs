@@ -10,7 +10,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; Asp.Net Core, C#, HTML, CSS, Blazor Server and MudBlazor, MongoDb, AWS, Docker, NGinx
 
 #### Demo Urls
-&nbsp;&nbsp;&nbsp;&nbsp; https://kitsunestudy.net
+&nbsp;&nbsp;&nbsp;&nbsp; https://kitsunestudy.net (not available right now)
 
 #### Demo Gif
 
