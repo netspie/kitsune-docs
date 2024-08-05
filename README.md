@@ -4,7 +4,7 @@
 
 ## General
 
-&nbsp;&nbsp;&nbsp;&nbsp; The main repository is available at https://github.com/Kitsune-Study/kitsune  
+&nbsp;&nbsp;&nbsp;&nbsp; The main repository is available at https://github.com/netspie/kitsune  
 
 #### Technologies
 &nbsp;&nbsp;&nbsp;&nbsp; Asp.Net Core, C#, HTML, CSS, Blazor Server and MudBlazor, MongoDb, AWS, Docker, NGinx
